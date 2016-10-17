@@ -2,7 +2,8 @@
   "manifest_version": 2,
 
   "name": "RssR: Rss Feed Notifier",
-  "description": "Grabs recent article headlines from RSS feeds",
+  "short_name": "RssR",
+  "description": "Grab recent article headlines from RSS feeds",
   "version": "1.0",
   "author": "Ruben Medina",
 
@@ -21,7 +22,7 @@
     "64": "icons/64.png"
   },
   "background": {
-    "scripts": [ "js/Storage.js", "js/FeedService.js", "background.js", "js/jquery-2.1.4.min.js" ],
+    "scripts": [ "js/Storage.js", "js/FeedService.js", "js/background.js", "js/jquery-2.1.4.min.js" ],
     "persistent": false
   },
   "options_ui": {
