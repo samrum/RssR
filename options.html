@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RssR: Settings</title>
+    <link rel="stylesheet" type="text/css" href="css/options.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="feedManagement">
+      <div class="header">
+        Rss Feeds
+      </div>
+      <ul id="feedList" data-feed-list></ul>
+
+      <button class="button standardBtn" data-role="editSortOrder">Edit Order</button>
+      <button id="addNewFeed" class="button standardBtn" data-role="addNewFeed">Add New Feed</button>
+    </div>
+
+    <div id="separator"></div>
+
+    <div id="editPane" style="display: none;" data-edit-pane>
+      <div class="header">
+        <span data-edit-header-label>Edit</span> Feed
+      </div>
+      <div id="feedEditForm" data-edit-form>
+        <div class="templateLabel">Name</div>
+        <input title="Feed Name" id="editFeedName" type="text" placeholder="Name of RSS feed" data-feed-name>
+        <div class="templateLabel">Url</div>
+        <input title="Feed URL" id="editFeedUrl" type="text" placeholder="URL of RSS feed" data-feed-url>
+        <div class="templateLabel">Link To Use</div>
+        <select title="Link Type" data-link-type>
+          <option value="">Default</option>
+          <option value="shorturl">Shorturl</option>
+          <option value="alternate">Alternate</option>
+          <option value="related">Related</option>
+          <option value="comments">Comments</option>
+        </select>
+
+        <div id="editButtons">
+          <button id="editSaveBtn" class="button" data-role="saveEditForm">Save</button>
+          <button id="editCancelBtn" class="button standardBtn" data-role="cancelEditForm">Cancel</button>
+          <br><button id="removeFeedBtn" class="button" data-role="removeFeed">Remove Feed</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="generalSettingsPane" data-general-settings-pane>
+      <div id="extensionLogo">
+        <img src="icons/254.png">
+      </div>
+      <div id="contactInfo">
+        Created by <a href="http://rubenmedina.com">Ruben Medina</a><br><br>
+        Thanks to <a href="http://rubaxa.github.io/Sortable/">Sortable</a>
+      </div>
+    </div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/Sortable.min.js"></script>
+    <script src="js/Storage.js"></script>
+    <script src="js/FeedService.js"></script>
+    <script src="js/options.js"></script>
+  </body>
+</html>
