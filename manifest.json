@@ -22,17 +22,17 @@
     "64": "icons/64.png"
   },
   "background": {
-    "scripts": [ "js/Storage.js", "js/FeedService.js", "js/background.js", "js/jquery-2.1.4.min.js" ],
+    "scripts": [
+      "js/Storage.js",
+      "js/FeedService.js",
+      "js/background.js",
+      "js/jquery-2.1.4.min.js"
+    ],
     "persistent": false
   },
   "options_ui": {
     "page": "options.html",
     "chrome_style": true
   },
-  "permissions": [
-    "*://*/*",
-    "alarms",
-    "storage",
-    "tabs"
-  ]
+  "permissions": ["*://*/*", "alarms", "storage", "tabs"]
 }

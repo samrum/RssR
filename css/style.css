@@ -1,17 +1,18 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('/../fonts/icomoon.eot?h9k04c');
-  src:  url('/../fonts/icomoon.eot?h9k04c#iefix') format('embedded-opentype'),
-    url('/../fonts/icomoon.ttf?h9k04c') format('truetype'),
-    url('/../fonts/icomoon.woff?h9k04c') format('woff'),
-    url('/../fonts/icomoon.svg?h9k04c#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("/../fonts/icomoon.eot?h9k04c");
+  src: url("/../fonts/icomoon.eot?h9k04c#iefix") format("embedded-opentype"),
+    url("/../fonts/icomoon.ttf?h9k04c") format("truetype"),
+    url("/../fonts/icomoon.woff?h9k04c") format("woff"),
+    url("/../fonts/icomoon.svg?h9k04c#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -27,4 +28,3 @@
 .icon-menu:before {
   content: "\e9bd";
 }
-

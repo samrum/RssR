@@ -1,84 +1,84 @@
 body {
-    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-    font-size: 100%;
-    width: 400px;
-    max-width: 400px;
-    min-width: 400px;
-    background-color: #7D7D7D;
-    padding: 0;
-    margin: 4px;
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+  width: 400px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #7d7d7d;
+  padding: 0;
+  margin: 4px;
 }
 
 .header {
-    padding: 6px 0;
-    text-align: center;
-    background-color: #7D7D7D;
-    color: white;
+  padding: 6px 0;
+  text-align: center;
+  background-color: #7d7d7d;
+  color: white;
 }
 
 #optionsPrompt {
-    background-color: #D8D7D7;
-    padding: 20px;
-    text-align: center;
+  background-color: #d8d7d7;
+  padding: 20px;
+  text-align: center;
 }
 
 .feedRow {
-    background-color: #D8D7D7;
-    margin-top: 2px;
-    border-radius: 4px;
+  background-color: #d8d7d7;
+  margin-top: 2px;
+  border-radius: 4px;
 }
 
 .feedTitle {
-    text-align: center;
-    padding: 2px 0;
-    font-size: 18px;
-    cursor: default;
-    -webkit-user-select: none;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 18px;
+  cursor: default;
+  -webkit-user-select: none;
 }
 
 .feedArticles {
-    display: none;
-    border-top: 1px solid black;
-    padding-top: 7px;
-    background-color: #F1EDED;
+  display: none;
+  border-top: 1px solid black;
+  padding-top: 7px;
+  background-color: #f1eded;
 }
 
 .feedArticles.opened {
-    display: block;
+  display: block;
 }
 
 .feedArticles .showRead {
-    font-size: 12px;
-    text-align: center;
-    padding-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 .feedArticles .showRead:hover {
-    cursor: pointer;
-    text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .feedArticle {
-    font-size: 14px;
-    padding: 0 7px 7px 7px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  font-size: 14px;
+  padding: 0 7px 7px 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .feedArticle.unread {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .feedArticle.hidden {
-    display: none;
+  display: none;
 }
 
 .feedArticle a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .feedArticle a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
