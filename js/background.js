@@ -7,9 +7,12 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
 
 chrome.runtime.onInstalled.addListener(onInstall);
 
-function onInstall()
+function onInstall({ reason })
 {
-    chrome.runtime.openOptionsPage();
+    if (reason === chrome.runtime.OnInstalledReason.INSTALL) {
+        chrome.runtime.openOptionsPage();
+    }
+    
     chrome.alarms.create('updateRssFeeds', {when: 0, periodInMinutes: 15});
 }
 
