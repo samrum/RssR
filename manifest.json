@@ -32,7 +32,6 @@
   "permissions": [
     "*://*/*",
     "alarms",
-    "storage",
-    "tabs"
+    "storage"
   ]
 }
